@@ -1,17 +1,22 @@
+<!-- Topic -->
 <div class="head">
   CALCULATOR 
 </div>
 
 
+
 <table >
+  <!-- Sub Display of the calculator -->
   <tr style="height: 50px;">
     <th class="subDisplay" colspan="4">{{input1}}</th>
   </tr>
 
+  <!-- Main Display Of the Calculator -->
   <tr style="height: 100px;">
     <th class="mainDisplay" colspan="4">{{result}}</th>
   </tr>
 
+  <!-- Buttons -->
   <tr>
     <td><button (click)="clearButton()">C</button></td>
     <td><button (click)="pressOperator('/')">/</button></td>
